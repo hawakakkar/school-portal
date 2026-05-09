@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Courses</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Student Courses</h1>
+    <input
+      type="text"
+      id="searchCourse"
+      placeholder="Search course by name..."
+    />
+    <div id="courseList"></div>
+
+    <br />
+    <br />
+    <h3>Add New Course</h3>
+    <form id="courseForm">
+      <input id="cname" placeholder="Course Name" />
+      <input id="instructor" placeholder="Instructor" />
+      <input id="gradeLevel" placeholder="Grade" />
+      <input id="desc" placeholder="Description" />
+      <button>Add Course</button>
+    </form>
+    <br />
+    <br />
+    <h2 id="details">Course Details:</h2>
+    <div id="courseDetails"></div>
+    <script src="script.js"></script>
+  </body>
+</html>

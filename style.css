@@ -1,0 +1,234 @@
+/*The Home page css style*/
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 20px;
+}
+.heading {
+  text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: #334d8e;
+  color: white;
+  padding: 40px;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+#themeToggle {
+  display: flex;
+  background: #0c2b7c;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  position: absolute;
+  left: 90%;
+}
+
+#enrollForm {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.dark {
+  background: #1a2238;
+  color: white;
+}
+
+.dark button {
+  background: #334d8e;
+}
+
+/* The Profile page css style*/
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 50%;
+  max-width: 300px;
+  border: 2px solid #334d8e;
+}
+
+#contactInfo {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+#status {
+  color: green;
+
+  font-weight: bold;
+}
+button {
+  background: #334d8e;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #093ac0;
+}
+
+/* The Course page css style*/
+#courseList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: stretch;
+  padding: 20px;
+  color: rgb(4, 4, 4);
+  text-align: center;
+  background-color: #334d8e;
+}
+
+/* The course card style*/
+
+.course-card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+  width: 240px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 260px;
+  transition: 0.3s;
+}
+
+/* The hover effect */
+.course-card:hover {
+  transform: translateY(-5px);
+}
+
+/* text spacing */
+.course-card h3 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.course-card p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.course-card button {
+  margin-top: auto;
+  background: #1a2238;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.course-card button:hover {
+  background: #082b9f;
+}
+
+#courseForm button {
+  background: #1a2238;
+}
+
+#courseForm button:hover {
+  background: #082b9f;
+}
+#details {
+  font-size: 16px;
+  margin-left: 525px;
+}
+#courseDetails {
+  margin: 20px auto;
+  max-width: 400px;
+  background: #334d8e;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: aliceblue;
+}
+
+#searchCourse {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* The contact page css style*/
+#contact {
+  background-color: #3a5eb8;
+}
+
+#contactForm {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#contactForm input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+#contactForm textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  resize: vertical;
+}
+
+#contactForm button {
+  padding: 8px 20px;
+  background: #1a2238;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  align-self: center;
+  margin-top: 18px;
+}
+
+#contactForm button:hover {
+  background: #1d44b6;
+}
+
+#confirmation {
+  text-align: center;
+  font-weight: bold;
+  color: rgb(40, 105, 69);
+  margin-top: 15px;
+}
